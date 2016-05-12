@@ -3,7 +3,7 @@
 require_once("../config.php");
 
 $params = array(
-	'alias'=>'testalias2.example.com',
+	'domain'=>'example.com',
 );
 
 $request = new \pmill\Plesk\DeleteSiteAlias($config, $params);
